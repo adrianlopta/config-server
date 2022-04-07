@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:13306/spring_data?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=America/Mexico_City&useLegacyDatetimeCode=false
+    url: jdbc:mysql://mysql8:3306/spring_data?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=America/Mexico_City&useLegacyDatetimeCode=false
     username: root
     password: ContenedoresTest2022
   jpa:
