@@ -1,0 +1,18 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:13306/spring_data?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=America/Mexico_City&useLegacyDatetimeCode=false
+    username: root
+    password: ContenedoresTest2022
+  jpa:
+    hibernate:
+      ddl-auto: create # validate create-drop create update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    open-in-view: false
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
